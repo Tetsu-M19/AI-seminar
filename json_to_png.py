@@ -9,7 +9,7 @@ import tqdm
 from PIL import Image
 
 # %%
-TEMP_DIR = "/content/drive/MyDrive/share/aiseminar NJ2/Dataset/train_anno_json"
+TEMP_DIR = "./braille_blocks_only_json/"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("json_dir", help="JSON files directory.")
